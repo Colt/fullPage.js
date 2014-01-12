@@ -1,0 +1,44 @@
+.wrap{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+}
+h1{
+	font-size: 5em;
+	font-family: arial,helvetica;
+}
+.section{
+	text-align:center;
+}
+header{
+  position: fixed;
+  background: #f2f2f2;
+  top: 0;
+left: 0;
+height: 100px;
+z-index: 100;
+width: 100%;
+padding: 48px 0 0 0;
+/*text-align: center;*/
+}
+#test{
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+  text-align: center;
+  color: #555;
+  letter-spacing: 9px;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#sub{
+  font-size: 15px;
+  color: #9f9f9f;
+  font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 10px 0 0 0;
+  font-weight: normal;
+  text-align: center;
+}

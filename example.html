@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>fullPage.js plugin by Alvaro Trigo</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple" />
+	<meta name="keywords"  content="fullpage,jquery,alvaro,trigo,plugin,fullscren,screen,full" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="example.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$.fn.fullpage({
+				slidesColor: ['white', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage']
+			});
+		});
+	</script>
+
+</head>
+<body>
+	 <header id="header">
+    <h1 id="test">COLT STEELE</h1>
+    <h2 id="sub">Web Developer, Audio Engineer, Guy</h2>
+  </header>
+
+<div class="section active" id="section0"><h1>Hey There</h1></div>
+<div class="section" id="section1">
+    <div class="slide active"><div class="wrap"><h1>This will be my website one day</h1></div></div>
+    <div class="slide"><h1>It's not finished yet</h1></div>
+    <div class="slide"><h1>I'm working hard on it!</h1></div>
+    <div class="slide"><h1>But it's very ugly right now</h1></div>
+</div>
+<div class="section" id="section2"><h1>I'm sorry it's not ready</h1></div>
+<div class="section" id="section3"><h1>Have a nice day</h1></div>
+
+
+</body>
+</html>

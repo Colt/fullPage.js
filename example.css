@@ -5,8 +5,10 @@
 	position: relative;
 }
 h1{
-	font-size: 5em;
-	font-family: arial,helvetica;
+  color: #555;
+  font-size: 45px;
+  font-weight: 900;
+	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .section{
 	text-align:center;
